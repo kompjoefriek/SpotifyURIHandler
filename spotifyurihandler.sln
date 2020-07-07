@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spotifyurihandler", "spotifyurihandler\spotifyurihandler.vcxproj", "{913DE8F3-1C39-4AC2-86E5-4A2FD1945A2C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "setup", "setup\setup.vdproj", "{E3585F39-098E-4DD6-B177-EC2425E07D45}"
+	ProjectSection(ProjectDependencies) = postProject
+		{913DE8F3-1C39-4AC2-86E5-4A2FD1945A2C} = {913DE8F3-1C39-4AC2-86E5-4A2FD1945A2C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{913DE8F3-1C39-4AC2-86E5-4A2FD1945A2C}.Debug|x64.ActiveCfg = Debug|x64
+		{913DE8F3-1C39-4AC2-86E5-4A2FD1945A2C}.Debug|x64.Build.0 = Debug|x64
+		{913DE8F3-1C39-4AC2-86E5-4A2FD1945A2C}.Debug|x86.ActiveCfg = Debug|Win32
+		{913DE8F3-1C39-4AC2-86E5-4A2FD1945A2C}.Debug|x86.Build.0 = Debug|Win32
+		{913DE8F3-1C39-4AC2-86E5-4A2FD1945A2C}.Release|x64.ActiveCfg = Release|x64
+		{913DE8F3-1C39-4AC2-86E5-4A2FD1945A2C}.Release|x64.Build.0 = Release|x64
+		{913DE8F3-1C39-4AC2-86E5-4A2FD1945A2C}.Release|x86.ActiveCfg = Release|Win32
+		{913DE8F3-1C39-4AC2-86E5-4A2FD1945A2C}.Release|x86.Build.0 = Release|Win32
+		{E3585F39-098E-4DD6-B177-EC2425E07D45}.Debug|x64.ActiveCfg = Debug
+		{E3585F39-098E-4DD6-B177-EC2425E07D45}.Debug|x64.Build.0 = Debug
+		{E3585F39-098E-4DD6-B177-EC2425E07D45}.Debug|x86.ActiveCfg = Debug
+		{E3585F39-098E-4DD6-B177-EC2425E07D45}.Debug|x86.Build.0 = Debug
+		{E3585F39-098E-4DD6-B177-EC2425E07D45}.Release|x64.ActiveCfg = Release
+		{E3585F39-098E-4DD6-B177-EC2425E07D45}.Release|x64.Build.0 = Release
+		{E3585F39-098E-4DD6-B177-EC2425E07D45}.Release|x86.ActiveCfg = Release
+		{E3585F39-098E-4DD6-B177-EC2425E07D45}.Release|x86.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20526B4E-8928-40B6-8DFD-83ED894F126E}
+	EndGlobalSection
+EndGlobal
