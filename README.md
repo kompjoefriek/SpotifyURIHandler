@@ -1,6 +1,6 @@
 # Spotify URI Handler
 
-![alt text](spotifyurihandler.png "Logo")
+![Logo](spotifyurihandler.png =256x256)
 
 This project builds a Windows installer (.exe and .msi) for 64bit versions of Windows.
 
@@ -11,12 +11,12 @@ Please note that this may conflict with the Spotify desktop client, do not insta
 
 ## Sample URI:
 
-album: <spotify:album:27ftYHLeunzcSzb33Wk1hf>
+album: `spotify:album:27ftYHLeunzcSzb33Wk1hf`
 
-artist: <spotify:artist:3mvkWMe6swnknwscwvGCHO>
+artist: `spotify:artist:3mvkWMe6swnknwscwvGCHO`
 
-track: <spotify:track:7lEptt4wbM0yJTvSG5EBof>
+track: `spotify:track:7lEptt4wbM0yJTvSG5EBof`
 
-user: <spotify:user:1185903410>
+user: `spotify:user:1185903410`
 
-playlist: <spotify:user:1185903410:playlist:6YAnJeVC7tgOiocOG23Dd>
+playlist: `spotify:user:1185903410:playlist:6YAnJeVC7tgOiocOG23Dd`
