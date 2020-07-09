@@ -1,6 +1,6 @@
 # Spotify URI Handler
 
-![Logo](spotifyurihandler.png =256x256)
+![Logo](spotifyurihandler.png)
 
 This project builds a Windows installer (.exe and .msi) for 64bit versions of Windows.
 
@@ -20,3 +20,24 @@ track: `spotify:track:7lEptt4wbM0yJTvSG5EBof`
 user: `spotify:user:1185903410`
 
 playlist: `spotify:user:1185903410:playlist:6YAnJeVC7tgOiocOG23Dd`
+
+
+## URI Handler in registry
+
+:file_folder: `HKEY_CLASSES_ROOT`
+
+&nbsp;&#9492; :file_folder: `<uri name>`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9500; :ab: `REG_SZ`  `(Default)`     `<name>`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9500; :ab: `REG_SZ`  DefaultIcon   `"<path to .ico file>"`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9500; :ab: `REG_SZ`  URL Protocol  `<empty>`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9492; :file_folder: shell
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9492; :file_folder: open
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9492; :file_folder: command
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9492; :ab: `REG_SZ`  `(Default)`  `"<path to .exe file>" %1`
