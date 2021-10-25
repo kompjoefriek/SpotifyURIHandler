@@ -41,3 +41,9 @@ playlist: `spotify:user:1185903410:playlist:6YAnJeVC7tgOiocOG23Dd`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9492; :file_folder: command
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9492; :ab: `REG_SZ`  `(Default)`  `"<path to .exe file>" %1`
+
+## Disclaimer
+
+All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.
+
+Spotify is a trademark of Spotify AB.
